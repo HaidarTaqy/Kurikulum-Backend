@@ -1,0 +1,47 @@
+php > $a =true;
+php > var_dump($a);
+bool(true)
+php > $b = false;
+php > var_dump($b);
+bool(false)
+php > $b = false;
+php > var_dump((bool)$b);
+bool(false)
+php > $c = 4.5;
+php > var_dump($c);
+float(4.5)
+php > $c = 4.5;
+php > var_dump((int)$c);
+int(4)
+php > $d = 3;
+php > $e = '2';
+php > var_dump($d + $e);
+int(5)
+php > $d = 3;
+php > $e = '2';
+php > var_dump($d . $e);
+string(2) "32"
+php > $c = 4.5;
+php > $e = '2';
+php > var_dump($c * $e);
+float(9)
+php > $d = 3;
+php > $e = '2';
+php > var_dump($d > $e);
+bool(true)
+php > $e = '2';
+php > $f = 2;
+php > var_dump($e == $f);
+bool(true)
+php > $e = '2';
+php > $f = 2;
+php > var_dump($e === $f);
+bool(false)
+php > $g = null;
+php > var_dump($g);
+NULL
+php > $g = null;
+php > var_dump((bool)$g);
+bool(false)
+php > var_dump((int)$g);
+int(0)

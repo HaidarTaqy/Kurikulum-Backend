@@ -1,0 +1,14 @@
+var_dump(true && false);
+Penjelasan
+&& itu berfungsi untuk memenuhi dua duanya
+hasil ouputnya false karena tidak ada variabelnya
+
+var_dump(true || false);
+Penjelasan 
+|| itu berfungsi sperti atau
+hasil outputnya true karena true lebih tinggi daripada false
+var_dump(false || false);
+hasil outputnya false karena dua duanya false
+var_dump(!false);
+hasil outputnya true karena ! untuk berlawanan
+
