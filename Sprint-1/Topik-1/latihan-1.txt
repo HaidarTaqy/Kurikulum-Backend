@@ -1,0 +1,16 @@
+<?php
+ $microsoftOffice = ["5.Ketik sesuka hati anda<br>",
+		     "7.Terus klik Print<br>",			
+           	     "4.Program sudah Jalan<br>",
+		     "2.Cari Logo Microsoft Office<br>",
+		     "6.jika ingin print Pencet Tombol CTRL+P<br>",
+		     "3.Klik 2* Logo<br>",
+		     "1.Pastikan Komputer dalam keadaan Hidup<br>"];
+	
+	sort($microsoftOffice);
+ $i= 0;
+ while ( $i < count($microsoftOffice) ) {
+ 	echo $microsoftOffice[$i];
+ 	$i++;
+ }
+ ?>
