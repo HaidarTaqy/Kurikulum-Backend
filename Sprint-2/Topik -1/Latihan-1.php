@@ -20,14 +20,14 @@ class JudulBuku
         print_r($Kunci);
         // $hasil = $jumlah - $key;
         echo "Pinjam Buku Berapa :";
-        $key = (int) fgets(STDIN);
-        $mybook = $Judul[$jurnal]["Jumlah Buku tersedia : "]-$key."\n";
-        echo "Sisa :".$mybook."\n";
+        $key = trim (fgets(STDIN));
+        $mybook = $Judul[$jurnal]["Jumlah Buku tersedia : "];
+        $jml = $mybook-$key;
+        echo "Sisa :".$jml."\n";
         echo "TANGGAL DIKEMBALIKAN 22 AGUSTUS 2020"."\n";
         echo "Balikin Buku Berapa :";
         $kembalikan = (int) fgets(STDIN);
-        // var_dump($kembalikan);
-        $balik = $mybook+$kembalikan."\n";
+        $balik = $jml+$kembalikan."\n";
         echo "Stock buku :".$balik;
 
     }
