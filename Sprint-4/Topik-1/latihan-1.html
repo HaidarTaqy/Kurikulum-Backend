@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan Get Post and GET Slurd</title>
+    <style>
+.container {
+	width: 50%;
+    margin: 0 auto;
+}
+ 
+h2{
+ background-color: #53bd84;
+ padding: 30px 35px;
+ margin: -10px -50px;
+ text-align:center;
+ color: #fff;
+}
+ 
+span{
+ display: block;
+ margin-bottom: 20px;
+ color: red;
+}
+ 
+.success{
+ display: block;
+ margin-top: 20px;
+ margin-bottom: 0;
+ font-size: 14px;
+} 
+ 
+b{
+ color:green;
+}
+ 
+hr{
+ margin: 10px -50px;
+ border: 0;
+ border-top: 1px solid #ccc;
+ margin-bottom: 25px;
+}
+ 
+div.main{
+ width: 306px;
+ padding: 10px 50px 30px;
+ border: 2px solid gray;
+ font-family: raleway;
+ float:left;
+ margin-top:15px;
+}
+ 
+input[type=text]{
+ width: 96%;
+ height: 25px;
+ padding: 5px;
+ margin-bottom: 25px;
+ margin-top: 5px;
+ border: 2px solid #ccc;
+ color: #53bd84;
+ font-size: 16px;
+}
+ 
+input[type=radio]{
+ margin: 10px 10px 0 10px;
+} 
+ 
+label{
+ color: #53bd84;
+ text-shadow: 0 1px 0 #fff;
+ font-size: 14px;
+ font-weight: bold;
+}
+ 
+input[type=submit]{
+ font-size: 16px;
+ background: linear-gradient(#53bd84 5%, #fff 100%);
+ color: #4E4D4B;
+ font-weight: bold;
+ cursor: pointer;
+ width: 100%;
+ padding: 10px 0;
+ outline:none;
+}
+        .word5 { word-spacing: 100px; }    
+     </style>
+</head>
+<body> 
+ <div class="container">
+    <form action="latihan-1.1.php" method="post">
+        <label for="">Nama Barang :</label>
+        <input type="text" name="barang" id="barang" placeorder="barang">
+        <label for="">Harga :</label> 
+        <input type="text" name="list" id="list" placeorder="list">
+        <input type="submit" name="Kirim"value="Submit">
+    </form>
+    <br>
+    <br>
+    <form action="latihan-1.2.php" method="get">
+            <label >Nama Kurir    :</label>
+            <input type="text" name="kurir" id="kurir" placeorder="kurir" class="word5">
+            <p class="word5"></p>
+            <label for="">Nama Pengirim :</label> 
+            <input type="text" name="pengirim" id="pengirim" placeorder="pengirim">
+            <p class="word5"></p>
+            <label for="">Asal Barang   :</label> 
+            <input type="text" name="asal" id="asal" placeorder="asal">
+            <p class="word5"></p>
+            <label for="">Tujuan Barang   :</label> 
+            <input type="text" name="tujuan" id="tujuan" placeorder="tujuan">
+            <p class="word5"></p>
+            <input type="submit" name="Kirim1" value="Submit">
+    </form>
+</div>
+</body>
+</html>
+
+
